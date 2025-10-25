@@ -289,6 +289,19 @@ def main():
     # Instructions
     with st.expander("ℹ️ How to use this tool", expanded=False):
         st.markdown("""
+        **⚠️ FIRST TIME SETUP (Do this once per externship):**
+
+        Before you can export an externship, give the Notion integration access to the page:
+        1. Open the externship page in Notion
+        2. Click the **"..."** menu (top right of the page)
+        3. Scroll down and click **"Add connections"**
+        4. Select **"Extern GPT Exporter"**
+        5. Click **"Confirm"**
+
+        ✅ **You only need to do this once per externship page!** The integration will then have access to that page and all its sub-pages.
+
+        ---
+
         **Step 1:** Copy the URL of your Notion externship page
         - Open the externship in Notion
         - Click "Share" and copy the link
@@ -306,7 +319,7 @@ def main():
         ---
 
         **Troubleshooting:**
-        - **"Cannot access page"** → Make sure your Notion integration has access to the page
+        - **"Cannot access page"** → Make sure you completed the "First Time Setup" above
         - **"Configuration error"** → Contact your team lead to check the API key setup
         - **Other issues** → Reach out on Slack or email support@extern.com
         """)
