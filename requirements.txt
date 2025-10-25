@@ -1,0 +1,17 @@
+# Notion API client
+notion-client==2.2.1
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Markdown formatting
+python-slugify==8.0.1
+
+# CLI interface
+click==8.1.7
+
+# Progress bars for better UX
+tqdm==4.66.1
+
+# Web interface
+streamlit==1.28.0
