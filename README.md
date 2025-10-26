@@ -1,3 +1,14 @@
+---
+title: Notion Externship Exporter
+emoji: 📚
+colorFrom: blue
+colorTo: purple
+sdk: streamlit
+sdk_version: 1.28.0
+app_file: streamlit_app.py
+pinned: false
+---
+
 # Notion to GPT Exporter
 
 **A simple tool to export Notion externship content and consolidate it into GPT-ready files.**
