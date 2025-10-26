@@ -403,15 +403,23 @@ def main():
                 2. **Go to OpenAI**: Visit https://chat.openai.com/gpts/editor
 
                 3. **Create or edit your custom GPT**
+                   - **Need setup help?** Follow the complete [GPT Configuration Guide](https://github.com/rodolfo-p87/notion-externship-exporter/blob/main/gpt-configuration/configuration-guide.md)
 
-                4. **Upload the knowledge file**:
+                4. **Configure your GPT instructions**:
+                   - Copy the [condensed system prompt](https://github.com/rodolfo-p87/notion-externship-exporter/blob/main/gpt-configuration/system-prompt-condensed.txt)
+                   - Paste it into the "Instructions" field in your GPT configurator
+                   - This defines how your GPT will behave and respond to students
+
+                5. **Upload the knowledge file**:
                    - Scroll to the "Knowledge" section
                    - Click "Upload files"
                    - Select the file you just downloaded: `{result['filename']}`
 
-                5. **Your GPT now has access** to the complete {result['externship_name']} content!
+                6. **Your GPT now has access** to the complete {result['externship_name']} content!
 
-                Need help with the custom GPT setup? Check the GPT configuration guide in the project folder.
+                **Resources:**
+                - [Complete Configuration Guide](https://github.com/rodolfo-p87/notion-externship-exporter/blob/main/gpt-configuration/configuration-guide.md) - Full setup instructions
+                - [Condensed System Prompt](https://github.com/rodolfo-p87/notion-externship-exporter/blob/main/gpt-configuration/system-prompt-condensed.txt) - Copy/paste for GPT instructions
                 """)
 
         else:
